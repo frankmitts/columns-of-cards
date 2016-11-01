@@ -13,6 +13,10 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0 0 1.5rem;
+}
+
 .btn-small {
   display: inline-block;
 }
@@ -20,16 +24,21 @@ html {
 h1 {
   text-align: center;
   font-size: 2rem;
+  padding: .75rem;
 }
 
 h2 {
   text-align: left;
   color: #000;
   font-size: 1.2rem;
+  margin-bottom: 0;
+  line-height: 1.5rem;
 }
 
 p {
   color: #000;
+  margin: 0;
+  line-height: 1.5rem;
 }
 
 .name {
@@ -44,7 +53,8 @@ p {
   background-color: #f2f2f2;
   color: #fff;
   margin: 0 auto 1.5rem;
-  padding: 1.5rem;
+  padding-top: .75rem;
+  padding-bottom: 1.5rem;
   width: 25%;
 }
 
@@ -55,7 +65,8 @@ p {
   background-color: #e2e2e2;
   color: #fff;
   margin: 0 auto 1.5rem;
-  padding: 1.5rem;
+  padding-top: .75rem;
+  padding-bottom: 1.5rem;
   width: 25%;
 }
 
@@ -66,7 +77,8 @@ p {
   background-color: #ccc;
   color: #fff;
   margin: 0 auto 1.5rem;
-  padding: 1.5rem;
+  padding-top: .75rem;
+  padding-bottom: 1.5rem;
   width: 25%;
 }
 
@@ -78,7 +90,8 @@ p {
   background-color: #aaa;
   color: #fff;
   margin: 0 auto 1.5rem;
-  padding: 1.5rem;
+  padding-top: .75rem;
+  padding-bottom: 1.5rem;
   width: 25%;
 }
 
@@ -86,6 +99,7 @@ img {
   display: block;
   width: 100px;
   text-align: center;
+  margin-left: 25%;
 }
 
 .btn {
