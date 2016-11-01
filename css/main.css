@@ -14,8 +14,7 @@ html {
 }
 
 .btn-small {
-  display: block;
-  line-height: 1.5em;
+  display: inline-block;
 }
 
 h1 {
